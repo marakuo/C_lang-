@@ -9,7 +9,7 @@ int main() {
      scanf(" %d", &wid);
      
      
-     printf("The perimeter of rectangle is %d", len*wid);
+     printf("The perimeter of rectangle is %d", (len+wid)*2);
      
     
    
