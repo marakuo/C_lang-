@@ -1,1 +1,19 @@
-ECHO is on.
+#include <stdio.h>
+int main() {
+    
+    int len,wid;
+    
+     printf("Enter the Length: ");
+     scanf("%d", &len);
+     printf("Enter the Width: ");
+     scanf(" %d", &wid);
+     
+     
+     printf("The Area of rectangle is %d", len*wid);
+     
+    
+   
+    
+    
+    return 0;
+}
